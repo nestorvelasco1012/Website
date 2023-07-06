@@ -4028,3 +4028,43 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	.profile-image {
+		max-width: 50%; /* Adjust the width as needed */
+		height: auto;
+	  }
+
+	  /* Portfolio Section Styles */
+#portfolio {
+	background-color: #181f25;
+	padding: 50px 0;
+	text-align: center;
+  }
+  
+  #portfolio h2 {
+	margin-bottom: 30px;
+	color: #333;
+  }
+  
+  .portfolio-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .item {
+	width: 250px;
+	margin: 20px;
+  }
+  
+  .item img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+  }
+  
+  .item h3 {
+	margin-top: 10px;
+	color: #333;
+  }
+  
