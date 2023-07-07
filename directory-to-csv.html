@@ -35,39 +35,49 @@
 				<!-- Main -->
 				<article id="main">
 					<header>
-					  <h2>Python Scripts</h2>
-					  <p>Scripts I developed to make administration easier.</p>
+						<h2>File directory to CSV</h2>
+					  <p>Generate CSV files by extracting file names from a designated folder.</p>
 					</header>
 					<section id="one" class="wrapper style1 special">
-						<h2>File directory to CSV</h2>
 						<div class="inner">
 							<header class="major">
+								<p>
+									This is a Python program that creates a graphical user interface (GUI) application using the Tkinter library. The purpose of the application is to select a folder and generate a CSV file that includes the names of PDF files within that folder.
+									When the script is executed, a window is created with the title "Directory to CSV". The window is sized to 660x100 pixels and centered on the screen.								
+									Within the window, there is a label that prompts the user to select a folder. The folder path is inputted through an entry field. Next to the entry field, there is a "Select Folder" button.									
+									The "Select Folder" button is associated with the select_folder() function. When clicked, it opens a file dialog where the user can choose a folder. The selected folder path is then inserted into the entry field.
+								</p>
 								<div class="image fit">
 									<img src="images/Python Scripts Images/DirToCSV1.png">
 								</div>
-								<p>
-									This script is specifically created to generate CSV files by extracting file names from a designated folder. It proves particularly beneficial for organizing unpaid invoices stored as PDF files. Upon running the script, it generates a CSV file that lists the names of the unpaid invoices. This CSV file can be utilized to automatically populate an Excel sheet I developed, which fills in the relevant data for each invoice based on its file name. When you open the script, you have the option to select a folder. This prompts a file explorer, allowing you to navigate to the folder containing the desired file names that you wish to convert into a CSV format.
-								</p>
-								<div class="image left">
+								<div class="image fit">
 									<img src="images/Python Scripts Images/DirToCSV2.png">
 								</div>
 								<p>
-									After selecting the folder, the path is shown to verify you have selected the correct folder. After veryfing the path, you click the "Create CSV" button, which will create and save the CSV in the same folder you have specified.
+									Below the folder entry field, there is a "Create CSV" button. Clicking this button triggers the create_csv() function. This function retrieves the folder path from the entry field and checks if a folder is selected. 
+									If a folder is chosen, the function creates a CSV file named after the selected folder on the user's desktop. It then writes the filenames of PDF files within the selected folder into the CSV file.
 								</p>
 								<div class="image fit">
 									<img src="images/Python Scripts Images/DirToCSV3.png">
 								</div>
+								<p>
+									During the process, the script uses the messagebox module to display messages to the user. For example, a "Done" message is shown when the CSV file is successfully created, or an "Error" message is displayed if a folder is not selected.
+								</p>
 								<div class="image fit">
 									<img src="images/Python Scripts Images/DirToCSV4.png">
 								</div>
-								<p>
-									As you can see, the CSV file contains the names of the files in the folder you selected. This CSV file can be used to automatically populate an Excel sheet I developed, which fills in the relevant data for each invoice based on its file name.
-								</p>
 							</header>	
+							<header>
+								<h2>The Script</h2>
+								<div class="image fit">
+									<img src="images/Python Scripts Images/DirToCSVCode.png">
+								</div>
+							</header>
+
 						</div>
 					</section>	
 				</article>
-				  
+			  
 
 				<!-- Footer -->
 				<footer id="footer">
@@ -91,6 +101,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/prism.min.js"></script>
+
 
 	</body>
 </html>

@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Nestor Velasco</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Nestor Velasco</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="portfolio.html">My Projects</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+				<article id="main">
+					<header>
+						<h2>Cross Check Invoices</h2>
+					  <p>Script used to cross check file names inside a folder with a csv file.</p>
+					</header>
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<p>
+									This program creates a graphical user interface (GUI) application using the Tkinter library. The purpose of the application is to select a CSV file and a folder, and then delete files from the specified folder based on the entries in the CSV file.
+									When the program runs, it creates a window with the title "Delete Files". The window is centered on the screen and has a fixed size of 700x130 pixels. Within the window, there are three main components: a label and an entry field for selecting the CSV file path, 
+									a label and an entry field for selecting the folder path, and a button to initiate the file deletion process.
+								</p>
+								<div class="image fit">
+									<img src="images/Python Scripts Images/OldMonthChecker.png">
+								</div>
+								<p>
+									The user can click the "Select CSV" button to open a file dialog and choose a CSV file. The selected file path is then displayed in the corresponding entry field. 
+									Similarly, the "Select Folder" button opens a file dialog for the user to select a folder, and the chosen folder path is displayed in the entry field.
+									Once both the CSV file and folder are selected, the user can click the "Delete Files" button. The script reads the CSV file to obtain a list of file names. 
+									It then iterates through the files in the specified folder and deletes any files whose names match the entries in the CSV list.
+								</p>
+
+								<p>
+									During the deletion process, the script displays a message box with the number of files deleted. If the CSV file or folder is not selected, an error message is shown instead.
+									The script continues running in a loop until the window is closed, allowing the user to perform multiple file deletion operations.
+								</p>
+							</header>	
+							<header>
+								<h2>The Script</h2>
+								<div class="image fit">
+									<img src="images/Python Scripts Images/oldMonthCheckerCode.png">
+								</div>
+							</header>
+						</div>
+					</section>	
+				</article>
+				  
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/nestor.velasco.313/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/nestorvelasco/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Nestor Velasco</li>
+					</ul>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
