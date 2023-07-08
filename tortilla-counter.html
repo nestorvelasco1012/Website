@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Nestor Velasco</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Nestor Velasco</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="portfolio.html">My Projects</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+				<article id="main">
+					<header>
+					  <h2>Tortilla Counter</h2>
+					  <p>Ultrasonic Sensor Counter</p>
+					</header>
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<p>
+									The project is a sensor-based tortilla counter designed to automate the process of counting and packaging tortillas as they slide down a slide. 
+									The system consists of two Arduino boards, an ultrasonic sensor, an LCD screen, a 4-way switch, a stepper motor, and several buttons for control.
+									The ultrasonic sensor is positioned underneath the slide at a specific distance. When a tortilla slides through the sensor's range, it detects the change in distance and triggers a counter. 
+									This allows the system to accurately count the number of tortillas that pass through.
+								</p>
+								<p>
+									The LCD screen displays the current tortilla count and the packet count. The 4-way switch is used to set the desired packet size, which can be 10, 14, 20, or an infinite number of tortillas. 
+									This selection determines how many tortillas need to be counted before a packet is considered complete.
+									When the tortilla count reaches the specified packet size, for example, 10 tortillas, the counter resets to 1, indicating the start of a new packet. 
+									At the same time, the packet count increases by 1, indicating the completion of a packet of tortillas. This information is displayed on the LCD screen.
+								</p>
+								<p>
+									Additionally, every time the packet count is reset, a signal is sent into another Arduino, and a stepper motor is activated. The stepper motor rotates a platform where the next packet of tortillas will fall into. 
+									This mechanism ensures that the packaged tortillas are neatly separated and ready for further processing.
+									The main control box contains buttons that allow the user to increase, decrease, or reset the tortilla count. 
+									These buttons provide manual control over the counting process, allowing adjustments to be made if needed.
+								</p>
+								<p>
+									In summary, the project automates the process of counting and packaging tortillas using a sensor, an LCD screen, a 4-way switch for packet size selection, and a stepper motor. 
+									It provides an efficient and accurate solution for counting tortillas and packaging them into predefined packets, streamlining the production process.
+								</p>
+							</header>
+
+							<h2>TinkerCad</h2>
+							<h1>For reference</h1>
+							<div class="image fit">
+								<img src="images/tinkercad.png">
+							</div>
+
+							<h2>The Code</h2>
+							<h1>Ultrasonic Sensor Counter + LCD (Arduino Uno)</h1>
+							<div class="image fit">
+								<img src="images/ultrasonic-sensor-counter-code.png">
+							</div>
+							<h1>Stepper Motor (Arduino Nano)</h1>
+							<div class="image fit">
+								<img src="images/stepper-motor-code.png">
+							</div>
+
+						</div>
+					</section>
+					
+					
+				</article>
+				  
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/nestor.velasco.313/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/nestorvelasco/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Nestor Velasco</li>
+					</ul>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

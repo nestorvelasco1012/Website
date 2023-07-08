@@ -2811,7 +2811,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #29313a;
+			background-color: #070b13;
 			color: #c8ece9;
 		}
 
@@ -2970,11 +2970,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #0a0f1b;
 		}
 
 		.wrapper.style3 {
-			background-color: #161625;
+			background-color: #080d17;
 			color: #d3d4e4;
 		}
 
@@ -3137,16 +3137,16 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #ffffff;
-			color: #4E4852;
+			background-color: #070b13;
+			color: #ffffff;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
-				color: #2E3842;
+				color: #ffffff;
 			}
 
 			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
-				color: #2E3842;
+				color: #ffffff;
 			}
 
 			.wrapper.style5 hr {
@@ -3158,11 +3158,11 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 code {
-				background: rgba(0, 0, 0, 0.0375);
+				background: rgba(255, 255, 255, 0.038);
 			}
 
 			.wrapper.style5 header p {
-				color: #8E8892;
+				color: #ffffff;
 			}
 
 			.wrapper.style5 header.major h2, .wrapper.style5 header.major h3, .wrapper.style5 header.major h4, .wrapper.style5 header.major h5, .wrapper.style5 header.major h6 {
@@ -3170,7 +3170,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 header.major p {
-				color: #4E4852;
+				color: #ffffff;
 			}
 
 			.wrapper.style5 label {
@@ -3886,7 +3886,7 @@ input, select, textarea {
 }
 
 .collection-item {
-	background-color: #f5f5f5;
+	background-color: #0d1524;
 	border-radius: 8px;
 	padding: 20px;
 	box-sizing: border-box;
