@@ -4030,7 +4030,7 @@ input, select, textarea {
 	}
 
 	.profile-image {
-		max-width: 50%; /* Adjust the width as needed */
+		max-width: 75%; /* Adjust the width as needed */
 		height: auto;
 	  }
 
